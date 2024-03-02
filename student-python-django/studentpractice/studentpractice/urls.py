@@ -22,4 +22,5 @@ from studentpractice import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
+    path('bootstrap-5/', views.bootstrap, name='bootstrap-5'),
 ]
